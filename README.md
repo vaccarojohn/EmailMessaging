@@ -3,7 +3,7 @@ This package provides a command line interface for sending emails via Gmail's SM
 
 This package will only work with emails provided through Gmail.
 
-Remember to go to [this](https://myaccount.google.com/lesssecureapps?pli=1) link to allow less secure apps to access your email.
+Remember to sign in to your account and then go to [this](https://myaccount.google.com/lesssecureapps?pli=1) link to allow less secure apps to access your email.
 
 How To Use (Windows):
 - Clone this repository to your computer
