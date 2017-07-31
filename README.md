@@ -1,4 +1,4 @@
-# EmailMessaging
+# Email Messaging
 This package provides a command line interface for sending emails via Gmail's SMTP server. It also provides a Python and C# method to send emails.
 
 This package will only work with emails provided through Gmail.
