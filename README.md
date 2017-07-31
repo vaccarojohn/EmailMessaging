@@ -1,5 +1,5 @@
 # EmailMessaging
-This package provides a command line interface for sending emails via Gmail's SMTP server. It also provides a python method to send emails.
+This package provides a command line interface for sending emails via Gmail's SMTP server. It also provides a Python and C# method to send emails.
 
 This package will only work with emails provided through Gmail.
 
@@ -24,3 +24,10 @@ How To Import The Python Script Into Your Another Python Package (For Use In You
 - Clone this repository to your computer
 - Copy the file "main.py" into your python application
 - Import the sendMail function from "main.py" by using the following python syntax: "from main import sendMail"
+
+How To Use The C# Script:
+- Clone this repository to your computer
+- Copy the DLL compiled for the version of .NET corresponding to your project into your project's references
+- Add the following "using" statement to your code: "using Email;"
+- To send an email, first declare an email message object with the following syntax: "EmailMessage message = new EmailMessage('subject', 'body', 'from', 'to', 'password');"
+- Send the message with "message.Send();"
