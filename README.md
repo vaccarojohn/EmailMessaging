@@ -43,3 +43,7 @@ EmailMessage message = new EmailMessage('subject', 'body', 'from', 'to', 'passwo
 ```c#
 message.Send();
 ```
+- Or if you are using .NET 5+, you can send the message with await:
+```c#
+await message.SendAsync();
+```
