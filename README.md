@@ -31,7 +31,10 @@ from main import sendMail
 How To Use The C# Script:
 - Clone this repository to your computer
 - Copy the DLL compiled for the version of .NET corresponding to your project into your project's references
-- Add the following "using" statement to your code: "using Email;"
+- Add the following "using" statement to your code: 
+```c#
+using Email;
+```
 - To send an email, first declare an email message object with the following syntax: 
 ```c#
 EmailMessage message = new EmailMessage('subject', 'body', 'from', 'to', 'password');
