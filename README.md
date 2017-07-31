@@ -23,11 +23,20 @@ How To Use (Unix):
 How To Import The Python Script Into Your Another Python Package (For Use In Your Python Applications):
 - Clone this repository to your computer
 - Copy the file "main.py" into your python application
-- Import the sendMail function from "main.py" by using the following python syntax: "from main import sendMail"
+- Import the sendMail function from "main.py" by using the following python syntax: 
+```python
+from main import sendMail
+```
 
 How To Use The C# Script:
 - Clone this repository to your computer
 - Copy the DLL compiled for the version of .NET corresponding to your project into your project's references
 - Add the following "using" statement to your code: "using Email;"
-- To send an email, first declare an email message object with the following syntax: "EmailMessage message = new EmailMessage('subject', 'body', 'from', 'to', 'password');"
-- Send the message with "message.Send();"
+- To send an email, first declare an email message object with the following syntax: 
+```c#
+EmailMessage message = new EmailMessage('subject', 'body', 'from', 'to', 'password');
+```
+- Send the message with:
+```c#
+message.Send();
+```
