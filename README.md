@@ -10,7 +10,10 @@ Remember to sign in to your account and then go to [this](https://myaccount.goog
 - OPTIONAL: Add the win32 directory to your PATH enviornment variable. Now, this command line script may be executed from any directory.
 - If you did not add the win32 directory to your PATH, navigate to the win32 directory.
 - Execute the following command: sendMail [subject] [body] [from] [to] [password]
-- EXAMPLE: sendMail "test" "This is a test." "me@gmail.com" "you@example.com" "mygmailpassword"
+- EXAMPLE:
+```shell
+sendMail "test" "This is a test." "me@gmail.com" "you@example.com" "mygmailpassword"
+```
 
 
 ## How To Use (Unix):
@@ -18,7 +21,10 @@ Remember to sign in to your account and then go to [this](https://myaccount.goog
 - Clone this repository to your computer
 - Navigate to the python directory
 - Execute the following command: python commandline.py [subject] [body] [from] [to] [password]
-- EXAMPLE: python commandline.py "test" "This is a test." "me@gmail.com" "you@example.com" "mygmailpassword"
+- EXAMPLE:
+```shell 
+python commandline.py "test" "This is a test." "me@gmail.com" "you@example.com" "mygmailpassword"
+```
 
 ## How To Import The Python Script Into Your Another Python Package (For Use In Your Python Applications):
 - Clone this repository to your computer
